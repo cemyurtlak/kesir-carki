@@ -73,7 +73,6 @@ lib/three.min.js      Three.js r149 (3B grafik kütüphanesi, çevrimdışı kul
 lib/mediapipe/        MediaPipe Hands 0.4.1675469240 (el takibi modeli ve dosyaları, çevrimdışı kullanım için)
 manifest.json         "Ana ekrana ekle" için uygulama bilgisi
 ikon.png              Uygulama simgesi (512×512)
-.nojekyll             GitHub Pages dosyaları olduğu gibi sunsun
 README.md             Bu dosya
 GELISTIRME_GUNLUGU.md Aşama aşama geliştirme kaydı
 DEVAM_NOTLARI.md      Kurallar, teknik kararlar, kod haritası, sonraki adımlar

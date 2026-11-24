@@ -14,9 +14,8 @@
 - **Telefon düzeni:** 560 px altında üst şerit 2 satıra indi (El ile oyna ve Robot Köpek yalnızca simge, tam ekran düğmesi gizli; iPhone desteklemiyor). Dik ekranda çark ekran genişliğini dolduracak kadar büyüdü (390 px telefonda yarıçap 122 → 166 px). Bilgi balonunun taşması düzeltildi.
 - **Ana ekrana eklenebilir:** `manifest.json`, `ikon.png` (512×512 çark simgesi), `theme-color` ve Apple web-app etiketleri eklendi; "Ana ekrana ekle" ile uygulama gibi tam ekran açılıyor.
 - **GitHub Pages:** `cemyurtlak/kesir-carki` deposu açıldı, tüm dosyalar yüklendi, Pages yayını açıldı: https://cemyurtlak.github.io/kesir-carki/ . Bu adres https olduğu için telefonda kamera ile "El ile oyna" da çalışabiliyor (el takibi dosyaları depodaki `lib/mediapipe/`'den yükleniyor).
-- `.nojekyll` eklendi (GitHub dosyaları olduğu gibi sunsun).
 
-**Değişen dosyalar:** `index.html`, `govde.html`, `manifest.json` (yeni), `ikon.png` (yeni), `.nojekyll` (yeni), `README.md`, `GELISTIRME_GUNLUGU.md`, `DEVAM_NOTLARI.md`
+**Değişen dosyalar:** `index.html`, `govde.html`, `manifest.json` (yeni), `ikon.png` (yeni), `README.md`, `GELISTIRME_GUNLUGU.md`, `DEVAM_NOTLARI.md`
 
 **Test durumu:**
 - Chromium telefon öykünmesi (390×844 ve 360×740, dokunmatik), gerçek dokunma olaylarıyla: yavaş sürükleme → çark parmağı takip etti (1,22 rad), dönmedi, uyarı çıktı ✔. Hızlı fırlatma (15 rad/sn) → 3 tur, 5,1 sn, ibrenin gösterdiği "Karşılaştır" diliminde durdu ve o konunun sorusu geldi ✔. Kısa dokunuş → normal çevirdi ✔. Yatay taşma yok, konsolda hata yok.
