@@ -1,0 +1,13 @@
+{
+  "name": "Kesir Çarkı",
+  "short_name": "Kesir Çarkı",
+  "description": "Ortaokul kesir soruları soran 3B, sesli yarışma çarkı",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "fullscreen",
+  "orientation": "any",
+  "background_color": "#0c0a2a",
+  "theme_color": "#0c0a2a",
+  "lang": "tr",
+  "icons": [{"src": "ikon.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable"}]
+}
